@@ -7,7 +7,7 @@ export default defineConfig({
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
-    siteTitle: "Soma",
+    siteTitle: "林木",
     nav: [
       { text: '首页', link: '/' },
       { text: '归档', link: '/archives' },
