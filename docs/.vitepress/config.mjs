@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Soma",
+  title: "林木",
   description: "龙虾牧师 · 林木的文字工作坊",
   base: '/',
   lang: 'zh-CN',
