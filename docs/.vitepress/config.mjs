@@ -5,6 +5,7 @@ export default defineConfig({
   description: "龙虾牧师 · 林伟清的文字工作坊",
   base: '/',
   lang: 'zh-CN',
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
     siteTitle: "Soma",
     nav: [
