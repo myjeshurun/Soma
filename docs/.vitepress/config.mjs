@@ -1,13 +1,13 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Soma",
-  description: "龙虾牧师 · 林伟清的文字工作坊",
+  title: "林木",
+  description: "龙虾牧师 · 林木的文字工作坊",
   base: '/',
   lang: 'zh-CN',
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
-    siteTitle: "Soma",
+    siteTitle: "林木",
     nav: [
       { text: '首页', link: '/' },
       { text: '归档', link: '/archives' },
@@ -17,7 +17,7 @@ export default defineConfig({
     ],
     footer: {
       message: '用 Obsidian 写作，VitePress 发布',
-      copyright: '© 2026 林伟清'
+      copyright: '© 2026 林木'
     }
   }
 })
