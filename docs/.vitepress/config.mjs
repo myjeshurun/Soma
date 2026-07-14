@@ -7,8 +7,6 @@ export default defineConfig({
   lang: 'zh-CN',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    // Vercount 阅读统计（不蒜子升级版）
-    ['script', { defer: '', src: 'https://vercount.one/js' }],
   ],
   themeConfig: {
     siteTitle: "林木",
