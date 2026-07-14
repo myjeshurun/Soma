@@ -5,7 +5,11 @@ export default defineConfig({
   description: "龙虾牧师 · 林木的文字工作坊",
   base: '/',
   lang: 'zh-CN',
-  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // Vercount 阅读统计（不蒜子升级版）
+    ['script', { defer: '', src: 'https://vercount.one/js' }],
+  ],
   themeConfig: {
     siteTitle: "林木",
     nav: [
