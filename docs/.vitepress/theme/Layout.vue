@@ -1,6 +1,7 @@
 <template>
   <Layout>
     <template #doc-before>
+      <SchemaJsonLD />
       <div class="page-stats" v-if="isArticlePage">
         <span class="stat-item">
           👁️ 阅读量：<strong><span id="busuanzi_value_page_pv">--</span></strong> 次
@@ -18,6 +19,7 @@ import { computed } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import GiscusComment from './GiscusComment.vue'
+import SchemaJsonLD from './SchemaJsonLD.vue'
 
 const { Layout } = DefaultTheme
 const route = useRoute()

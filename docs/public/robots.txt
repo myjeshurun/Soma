@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Sitemap: https://soma-9y2.pages.dev/sitemap.xml
+
+# AI crawlers - enhanced access
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
