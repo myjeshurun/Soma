@@ -49,6 +49,46 @@ const jsonLd = {
   ]
 }
 
+// FAQPage schema for AI answer engines (mirrors /ai/faq.json)
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: '什么是身体神学（承载者神学）？',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: '身体神学探讨道成肉身的身体维度：身体不是工具，而是信仰的承载者。罪、恩典、救赎都需要从身体出发重新理解。'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: '作者是谁？',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: '龙虾牧师（笔名：林木），神学工作者，22年牧职经历，现专注写作与AI时代的信仰探索。'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: '这个网站为什么叫 Soma？',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Soma 是希腊语 σῶμα（身体）的音译，代表站点以身体神学为核心的写作方向。'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: '网站主要写什么主题？',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: '三大主题：身体神学（承载者神学）、教会沉思（教会体制与牧职身份反思）、AI时代的信仰。'
+      }
+    }
+  ]
+}
+
 export default defineConfig({
   title: '林木',
   description: siteDesc,
@@ -76,7 +116,9 @@ export default defineConfig({
     // RSS feed
     ['link', { rel: 'alternate', type: 'application/rss+xml', title: `${siteName} RSS`, href: '/feed.xml' }],
     // JSON-LD structured data (homepage)
-    ['script', { type: 'application/ld+json' }, JSON.stringify(jsonLd)]
+    ['script', { type: 'application/ld+json' }, JSON.stringify(jsonLd)],
+    // FAQPage schema
+    ['script', { type: 'application/ld+json' }, JSON.stringify(faqJsonLd)]
   ],
   themeConfig: {
     siteTitle: '林木',

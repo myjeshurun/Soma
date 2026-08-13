@@ -1,0 +1,20 @@
+{
+  "site": "Soma · 林木",
+  "url": "https://soma-9y2.pages.dev",
+  "services": {
+    "type": "写作与思想分享",
+    "description": "提供关于身体神学、教会沉思与AI时代信仰的深度中文文章。",
+    "offers": [
+      {
+        "name": "深度文章阅读",
+        "description": "身体神学、教会沉思、AI与信仰主题的原创中文文章",
+        "url": "https://soma-9y2.pages.dev/archives.html"
+      },
+      {
+        "name": "RSS订阅",
+        "description": "通过 RSS 订阅最新文章",
+        "url": "https://soma-9y2.pages.dev/feed.xml"
+      }
+    ]
+  }
+}

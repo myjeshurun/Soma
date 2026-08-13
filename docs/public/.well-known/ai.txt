@@ -1,0 +1,42 @@
+# AI crawler permissions for soma-9y2.pages.dev
+# This file defines AI crawler access to this site.
+# See https://ai.txt for the specification.
+
+# Site metadata
+site: Soma · 林木 (https://soma-9y2.pages.dev)
+owner: 龙虾牧师（林木）
+description: 龙虾牧师 · 林木的文字工作坊——身体神学、教会沉思与生命轨迹。
+
+# Crawling policy
+crawl: allow
+
+# Preferred formats
+format: markdown
+
+# AI crawler directives
+user-agent: GPTBot
+allow: /
+
+user-agent: OAI-SearchBot
+allow: /
+
+user-agent: PerplexityBot
+allow: /
+
+user-agent: ClaudeBot
+allow: /
+
+user-agent: Claude-SearchBot
+allow: /
+
+user-agent: Google-Extended
+allow: /
+
+user-agent: CCBot
+allow: /
+
+user-agent: Bytespider
+allow: /
+
+user-agent: Applebot
+allow: /
