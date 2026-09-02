@@ -32,7 +32,7 @@ const schemaJson = computed(() => {
       '@type': 'Organization',
       name: 'Soma · 林木'
     },
-    url: `https://soma-9y2.pages.dev${route.path}`,
+    url: `https://soma.passionever.cn${route.path}`,
     datePublished: frontmatter.value.date || undefined,
     dateModified: frontmatter.value.lastUpdated || undefined,
     keywords: tags.length > 0 ? tags.join(', ') : undefined,

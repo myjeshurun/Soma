@@ -13,7 +13,7 @@ const rootDir = resolve(__dirname, '..')
 const docsDir = resolve(rootDir, 'docs')
 const articlesDir = resolve(docsDir, 'articles')
 const distDir = resolve(docsDir, '.vitepress', 'dist')
-const hostname = 'https://soma-9y2.pages.dev'
+const hostname = 'https://soma.passionever.cn'
 const outPath = resolve(distDir, 'feed.xml')
 
 const siteTitle = 'Soma · 林木'

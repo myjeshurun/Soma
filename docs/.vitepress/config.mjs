@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
 
-const siteUrl = 'https://soma-9y2.pages.dev'
+const siteUrl = 'https://soma.passionever.cn'
 const siteName = 'Soma · 林木'
 const siteDesc = '龙虾牧师 · 林木的文字工作坊——身体神学、教会沉思与生命轨迹。探讨道成肉身的身体维度，AI时代的信仰反思。'
 const logoUrl = `${siteUrl}/%E9%BE%99%E8%99%BE%E7%89%A7%E5%B8%88Lobster%20Pastor_logo.jpg`

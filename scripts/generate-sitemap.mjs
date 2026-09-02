@@ -11,7 +11,7 @@ import { SitemapStream } from 'sitemap'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const distDir = resolve(__dirname, '..', 'docs', '.vitepress', 'dist')
 const articlesDir = resolve(distDir, 'articles')
-const hostname = 'https://soma-9y2.pages.dev'
+const hostname = 'https://soma.passionever.cn'
 const outPath = resolve(distDir, 'sitemap.xml')
 
 const sitemap = new SitemapStream({ hostname })
