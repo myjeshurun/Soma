@@ -9,7 +9,9 @@ aliases:
   - spark_app
 ---
 
-## 缘起
+![闪念Spark](/spark-logo.png)
+
+### 缘起
 
 我是flomo的重度用户，读书笔记、个人思考都会快速地进入flomo；但当我里面的想法越来越多，我发现它们淹没在了众多的声音中，我想要找到自己的声音，想有一个地方可以存放单单属于我的声音——干净、纯粹。
 
@@ -24,4 +26,4 @@ aliases:
 愿它陪伴你，也激发你Spark your life.
 
 如果你也喜欢，请给我好评；如果你有什么反馈，欢迎联系我：
-jeshurunlin [at] gmail [dot] com
+***jeshurunlin [at] gmail [dot] com***
