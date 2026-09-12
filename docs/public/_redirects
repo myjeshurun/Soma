@@ -1,0 +1,5 @@
+# Cloudflare Pages 原生重定向（301）
+# 目的：给文章一个「简单网址」。完整地址仍可用（/articles/...）。
+# 格式：<来源路径> <目标路径> [状态码]
+/spark_app  /articles/%E9%97%AA%E5%BF%B5Spark-APP.html  301
+/sparkapp   /articles/%E9%97%AA%E5%BF%B5Spark-APP.html  301
