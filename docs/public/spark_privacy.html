@@ -149,6 +149,7 @@
       <li>你自己选择一家第三方 AI 服务商（例如 DeepSeek、OpenAI 兼容接口，或你自己搭建的服务），并填入其服务地址、模型名和你自己的 API 密钥；</li>
       <li>应用会明确弹窗告知这些文字将被发送到哪一个地址，你必须<strong>主动点击确认</strong>才会真正开启——填完信息本身不会自动启用；</li>
       <li>如果你之后把服务地址换成另一家，应用会视为一次新的第三方，重新弹窗要求你再次确认。</li>
+      <li><strong>关于第三方的数据保护。</strong> AI 润饰的服务商由你自行选择、用你自己的账户和额度，我们不代收费用、不做中转、也看不到发出去的内容。为此我们做了三件事：确认框里写明你的文字将被发往的确切地址，你必须亲手确认一次才会开始发送；换了地址就重新确认一次；并且我们要求你只把这个功能指向隐私保护不低于本政策所述水平的服务商 —— 请在填入地址前阅读该服务商自己的隐私条款（是否用你的内容训练模型、保留多久）。如果你不愿把内容交给任何第三方，可以把地址指向你自己搭建的模型（例如局域网里的 Ollama），这种情况下你的文字不会离开你自己掌握的设备。无论如何，<strong>你的录音在任何情况下都不会发给任何第三方</strong>。</li>
     </ol>
     <p>开启后，<strong>只有语音转写出来的文字</strong>会被发送给你自己选定的这家第三方服务商，用于把口语顺成书面语（加标点、改错字、去口水词）。<strong>原始录音音频永远不会离开你的设备</strong>，也不会经过我们或任何第三方。</p>
     <p>密钥保存在你设备的钥匙串中，我们和任何第三方都无法获取。你可以随时在设置中关闭此功能或清除密钥，关闭后转写只在设备本地完成。</p>
@@ -204,6 +205,7 @@
       <li>You choose a third-party AI provider (for example DeepSeek, an OpenAI-compatible endpoint, or a service you host yourself) and enter its endpoint URL, model name, and your own API key;</li>
       <li>The App shows a confirmation dialog stating exactly which address your text will be sent to, and you must <strong>actively tap to confirm</strong> — simply filling in the fields does not enable the feature by itself;</li>
       <li>If you later change the endpoint to a different provider, the App treats this as a new third party and asks you to confirm again.</li>
+      <li><strong>Third-party protection.</strong> The AI polish provider is chosen by you and billed to your own account; we do not resell it, do not proxy it, and cannot see what is sent. Accordingly: the confirmation dialog names the exact destination your text will be sent to and you must actively confirm it before any sending begins; changing the destination requires a fresh confirmation; and we require that you only point this feature at a provider whose privacy protections are no weaker than those described in this policy — please read that provider's own privacy terms (whether your content is used to train models, and how long it is retained) before entering its address. If you prefer not to involve any third party, you can point the app at a model you host yourself (for example Ollama on your own network), in which case your text does not leave hardware you control. In all cases, <strong>your audio recordings are never sent to any third party.</strong></li>
     </ol>
     <p>Once enabled, <strong>only the transcribed text</strong> is sent to the third-party provider you configured, in order to turn spoken language into cleaner written text (adding punctuation, fixing misheard words, removing filler words). <strong>Your original audio recording never leaves your device</strong>, and is never sent to us or to any third party.</p>
     <p>Your API key is stored in your device's Keychain; neither we nor any third party can access it. You can disable this feature or clear your key at any time in Settings, after which transcription happens entirely on-device again.</p>
